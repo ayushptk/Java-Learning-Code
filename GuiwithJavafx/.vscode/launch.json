@@ -6,7 +6,7 @@
       "name": "Run JavaFX App",
       "request": "launch",
       "mainClass": "FlowPaneExample",
-      "vmArgs": "--module-path C:\Users\ASUS\Downloads\openjfx-24.0.2_windows-x64_bin-sdk\javafx-sdk-24.0.2\lib --add-modules javafx.controls"
+      "vmArgs": "--module-path C:/Users/ASUS/Downloads/openjfx-24.0.2_windows-x64_bin-sdk/javafx-sdk-24.0.2/lib --add-modules javafx.controls"
     }
   ]
 }
