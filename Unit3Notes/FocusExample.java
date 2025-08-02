@@ -8,11 +8,11 @@ public class FocusExample implements FocusListener {
     FocusExample() {
         JFrame frame = new JFrame("Focus Event Example");
 
-        field1 = new JTextField("Enter name");
+        field1 = new JTextField("");
         field1.setBounds(50, 50, 150, 30);
         field1.addFocusListener(this);
 
-        field2 = new JTextField("Enter age");
+        field2 = new JTextField("");
         field2.setBounds(50, 100, 150, 30);
         field2.addFocusListener(this);
 
