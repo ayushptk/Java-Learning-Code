@@ -15,7 +15,7 @@ public class PreparedStatementExample {
             // Create PreparedStatement
             PreparedStatement pstmt = con.prepareStatement(sql);
 
-            // Set parameters
+            // Set parameter s
             pstmt.setInt(1, 2);
             pstmt.setString(2, "Ayush");
             pstmt.setString(3, "ayush@gmail.com");
